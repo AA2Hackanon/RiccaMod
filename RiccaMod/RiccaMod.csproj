@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppACTAssemblyDefiniton">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2CppACTAssemblyDefiniton.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppAppControllerAssemblyDefinition">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2CppAppControllerAssemblyDefinition.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppCharacterAssemblyDifinition">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2CppCharacterAssemblyDifinition.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\net6\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
