@@ -19,5 +19,5 @@ using RiccaMod; // The namespace of your mod class
 [assembly: Guid("34781739-fc9d-4cd4-834b-0b697682648c")]
 
 // ...
-[assembly: MelonInfo(typeof(Gameplaymod), "RiccaMod", "0.0.1", "Hackanon")]
+[assembly: MelonInfo(typeof(Gameplaymod), "RiccaMod", "0.0.2", "Hackanon")]
 [assembly: MelonGame("", "")]
