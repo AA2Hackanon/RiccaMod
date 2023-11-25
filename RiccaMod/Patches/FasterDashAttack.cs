@@ -26,9 +26,14 @@ namespace RiccaMod.Patches
             enableEntry.DisplayName = Name;
             enableEntry.Description = Description;
             Enabled = enableEntry.Value;
+
+            var timingEntry = cat.CreateEntry<float>("FasterDashAttack_TimingS", DashAttackRunTime);
+            timingEntry.DisplayName = "Dash Attack Timing";
+            timingEntry.Description = "Time in Seconds of running until attacks become dash attacks.";
+            DashAttackRunTime = timingEntry.Value;
         }
 
-        private static float DashAttackRunTime = 0.25f;
+        private static float DashAttackRunTime = 0.125f;
 
         /*
                              **************************************************************

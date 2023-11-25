@@ -26,7 +26,7 @@ namespace RiccaMod.Patches
             enableEntry.Description = Description;
             Enabled = enableEntry.Value;
 
-            var guardBonusEntry = cat.CreateEntry<float>("Balance_GuardBonusMultipler", 2.0f);
+            var guardBonusEntry = cat.CreateEntry<float>("Balance_GuardBonusMultipler", GuardPowerMultiplier);
             guardBonusEntry.DisplayName = "Guard Bonus Multiplier";
             guardBonusEntry.Description = "That one spear has a bonus that increases Counter Damage, but the bonus doesnt actually do anything. This gives that bonus a multiplier on its counter damage.";
             GuardPowerMultiplier = guardBonusEntry.Value;

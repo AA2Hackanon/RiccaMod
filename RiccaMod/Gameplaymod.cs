@@ -25,6 +25,8 @@ namespace RiccaMod
             patches.Add(new FasterDashAttack(env));
             patches.Add(new Balance(env));
             patches.Add(new Demosaic(env));
+            patches.Add(new Fastfall(env));
+            patches.Add(new AirDash(env));
 
             foreach (IPatch patch in patches)
             {

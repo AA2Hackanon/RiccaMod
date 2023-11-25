@@ -23,6 +23,9 @@
     <Reference Include="Il2CppCharacterAssemblyDifinition">
       <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2CppCharacterAssemblyDifinition.dll</HintPath>
     </Reference>
+    <Reference Include="Il2CppCriAssemblyDefinition">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\Il2CppCriAssemblyDefinition.dll</HintPath>
+    </Reference>
     <Reference Include="Il2CppInterop.Runtime">
       <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>
@@ -43,6 +46,9 @@
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\dgl\ricca\HolyKnightRicca_v132ja\Game\MelonLoader\Il2CppAssemblies\UnityEngine.ParticleSystemModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 

@@ -30,12 +30,12 @@ namespace RiccaMod.Patches
             enableEntry.Description = Description;
             Enabled = enableEntry.Value;
 
-            var timingEntry = cat.CreateEntry<float>("ShortHop_TimingS", 0.05f);
+            var timingEntry = cat.CreateEntry<float>("ShortHop_TimingS", TimingS);
             timingEntry.DisplayName = "Short Hop Timing";
             timingEntry.Description = "Time in Seconds one has to release the jump button before it stops counting as a short hop.";
             TimingS = timingEntry.Value;
 
-            var inertiaEntry = cat.CreateEntry<float>("ShortHop_Inertia", 4.5f);
+            var inertiaEntry = cat.CreateEntry<float>("ShortHop_Inertia", Inertia);
             inertiaEntry.DisplayName = "Short Hop Inertia";
             inertiaEntry.Description = "Modified Inertia Value for a short hop.";
             Inertia = inertiaEntry.Value;
